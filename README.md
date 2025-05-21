@@ -1,4 +1,3 @@
-````markdown
 # Gramquest Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -40,7 +39,7 @@ Ensure you have these installed:
 3.  **Environment Variables:**
     Create a `.env` file in the root (`/server/.env`) with:
     ```
-    PORT=5000
+    PORT=3000
     MONGO_URI=mongodb://localhost:27017/gramquest_db
     JWT_SECRET=YOUR_VERY_SECRET_JWT_KEY_HERE
     ```
@@ -58,7 +57,7 @@ npm run dev
 yarn dev
 ````
 
-The server will typically run on `http://localhost:5000`.
+The server will typically run on `http://localhost:3000`.
 
 -----
 
@@ -89,7 +88,4 @@ We welcome contributions\! Please follow these steps:
     ```
 6.  **Open a Pull Request** from your forked repository's branch to the `main` branch of the original Gramquest Backend repository.
 
-Please ensure your code adheres to existing coding standards and includes appropriate comments.
 
-```
-```
