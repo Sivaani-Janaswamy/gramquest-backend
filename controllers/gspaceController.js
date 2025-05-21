@@ -1,4 +1,4 @@
-const GSpace = require('../models/Gspace');
+const GSpace = require('../models/GSpace');
 
 // Create GSpace
 exports.createGSpace = async (req, res) => {
