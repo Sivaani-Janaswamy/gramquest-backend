@@ -14,11 +14,18 @@ const gptRoutes = require('./routes/gpt');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Dynamic Base URL (for image URL construction)
+const BASE_URL = process.env.NODE_ENV === 'production'
+  ? process.env.BASE_URL
+  : `http://localhost:${PORT}`;
+
+// Make BASE_URL accessible in routes/controllers
+app.locals.BASE_URL = BASE_URL;
+
 // Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 
 // Static Files
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
@@ -42,7 +49,7 @@ app.get('/', (req, res) => {
 connectDB()
     .then(() => {
         app.listen(PORT, () => {
-            console.log(`✅ Server running at http://localhost:${PORT}`);
+            console.log(`✅ Server running at ${BASE_URL}`);
         });
     })
     .catch((err) => {

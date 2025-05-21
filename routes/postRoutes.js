@@ -43,7 +43,7 @@ router.get('/mine', verifyToken, postController.getMyPosts);
 router.get('/:id', postController.getPostById); // Add this route to get a post by ID
 router.put('/:id/star', verifyToken, postController.starPost);
 router.put('/:id/upvote', verifyToken, postController.upvotePost);
-router.post('/:id/reply', verifyToken, verifyToken, postController.replyToPost);
+router.post('/:id/reply', verifyToken, postController.replyToPost);
 router.put('/:id', verifyToken, postController.updatePost);
 router.delete('/:id', verifyToken, postController.deletePost);
 router.delete('/:id/unstar', verifyToken, postController.unstarPost);
