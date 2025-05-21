@@ -1,3 +1,4 @@
+````markdown
 # Gramquest Backend
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -88,3 +89,7 @@ We welcome contributions\! Please follow these steps:
     ```
 6.  **Open a Pull Request** from your forked repository's branch to the `main` branch of the original Gramquest Backend repository.
 
+Please ensure your code adheres to existing coding standards and includes appropriate comments.
+
+```
+```
