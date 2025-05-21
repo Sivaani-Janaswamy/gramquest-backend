@@ -4,6 +4,11 @@
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-800000?style=for-the-badge&logo=mongoose&logoColor=white)
+[![Last Commit](https://img.shields.io/github/last-commit/Sivaani-Janaswamy/gramquest-backend)](https://github.com/Sivaani-Janaswamy/gramquest-backend)
+[![Issues](https://img.shields.io/github/issues/Sivaani-Janaswamy/gramquest-backend)](https://github.com/Sivaani-Janaswamy/gramquest-backend/issues)
+[![Build](https://img.shields.io/github/actions/workflow/status/Sivaani-Janaswamy/gramquest-backend/node.js.yml?branch=main)](https://github.com/Sivaani-Janaswamy/gramquest-backend/actions)
+[![License](https://img.shields.io/github/license/Sivaani-Janaswamy/gramquest-backend)](https://opensource.org/licenses/MIT)
+
 
 ## Quick Setup Guide
 
